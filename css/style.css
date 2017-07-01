@@ -577,6 +577,9 @@ img {
     color: #cacaca; }
 
 .main-header {
+  display: table;
+  content: "";
+  clear: both;
   height: 278px;
   width: 320px;
   background-color: #f9f9f9;
@@ -2863,7 +2866,7 @@ svg {
 
   .contacts p {
     vertical-align: top;
-    padding: 10px 25px 0 0;
+    margin: 10px 25px 0 0;
     line-height: 32px; }
 
   .contacts__value {
@@ -4320,7 +4323,7 @@ svg {
 
   .contacts p {
     vertical-align: top;
-    padding: 0 25px 27px 0;
+    margin: 0 25px 27px 0;
     line-height: 30px; }
 
   .contacts__value {
@@ -4343,7 +4346,7 @@ svg {
 
   .contacts .btn {
     margin: 40px 30px 40px 227px;
-    padding: 15px 0;
+    padding: 12px 0;
     width: 230px; }
 
   .keyword-h2 {
